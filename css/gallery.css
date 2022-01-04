@@ -1,0 +1,88 @@
+/* start nav */
+nav{
+    background-color: #000069;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 15px rgb(00, 00, 00);
+    padding: 8px 12px;
+    margin: 0;
+}
+#navlink{
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+}
+#navlink:hover{
+    background-color: #AB2020;
+    border-radius: 30px;
+    font-size: 18px;
+}
+/* end nav */
+body{
+    text-align: center;
+    background: url(../img/BG.png), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.title{
+    padding: 20px 0;
+}
+
+.d1{
+    background: url(../img/unsplash.jpg), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 5%;
+    border-radius: 10%;
+}
+
+.d2{
+    background: url(../img/u3.jpg), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 5%;
+    border-radius: 10%;
+}
+
+.d3{
+    background: url(../img/unsplash1.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 5%;
+    border-radius: 10%;
+}
+
+.d4{
+    background: url(../img/unsplash3.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 5%;
+    border-radius: 10%;
+}
+
+
+.d5{
+    background: url(../img/unsplash2.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 5%;
+    border-radius: 10%;
+}
+
+.sub-title{
+    padding: 15px 0 10px 0;
+    margin-top: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.pgs{
+    padding: 20px 0;
+}
