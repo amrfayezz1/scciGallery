@@ -36,7 +36,7 @@ img{
 }
 
 .d1{
-    background: url(../img/unsplash.jpg), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    background: url(../img/unsplash3.jpg), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 5%;
@@ -60,7 +60,7 @@ img{
 }
 
 .d4{
-    background: url(../img/unsplash3.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.2));
+    background: url(../img/unsplash.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.2));
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 5%;
@@ -89,4 +89,8 @@ img{
 
 .pgs{
     padding: 20px 0;
+}
+
+.x{
+    margin-left: 50px;
 }
