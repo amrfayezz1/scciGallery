@@ -100,7 +100,7 @@ img {
 }
 
 img:hover {
-    -webkit-transform:scale(1.2); /* or some other value */
+    -webkit-transform:scale(1.2);
     transform:scale(1.2);
     z-index: 1;
 }
