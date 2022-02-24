@@ -104,3 +104,9 @@ img:hover {
     transform:scale(1.2);
     z-index: 1;
 }
+
+@media (max-width:768px) {
+    .sub-title{
+        padding-top: 60px;
+    }
+}
