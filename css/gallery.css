@@ -20,7 +20,7 @@ nav{
 /* end nav */
 body{
     text-align: center;
-    background: url(../img/BG.png), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    background: url(../img/Grey_wallpaper.jfif), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -36,32 +36,32 @@ img{
 }
 
 .d1{
-    background: url(../img/unsplash3.jpg), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-    background-size: cover;
+    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0 5%;
     border-radius: 10%;
 }
 
 .d2{
-    background: url(../img/u3.jpg), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-    background-size: cover;
+    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0 5%;
     border-radius: 10%;
 }
 
 .d3{
-    background: url(../img/unsplash1.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.2));
-    background-size: cover;
+    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0 5%;
     border-radius: 10%;
 }
 
 .d4{
-    background: url(../img/unsplash.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.2));
-    background-size: cover;
+    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0 5%;
     border-radius: 10%;
@@ -69,8 +69,8 @@ img{
 
 
 .d5{
-    background: url(../img/unsplash2.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.2));
-    background-size: cover;
+    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0 5%;
     border-radius: 10%;
