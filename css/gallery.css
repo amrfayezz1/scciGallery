@@ -1,4 +1,5 @@
-/* start nav */
+/* nav */
+
 nav{
     background-color: #000069;
     border-bottom-left-radius: 30px;
@@ -17,7 +18,12 @@ nav{
     border-radius: 30px;
     font-size: 18px;
 }
-/* end nav */
+
+/* font for headers */
+h1,h2,h4{
+    font-family: 'Rock Salt', cursive;
+}
+
 body{
     text-align: center;
     background: url(../img/Grey_wallpaper.jfif), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
@@ -27,53 +33,26 @@ body{
     color: white;
 }
 
+/* image sizing */
 img{
     max-height: 228px;
 }
 
 .title{
-    padding: 20px 0;
+    padding: 40px 0 15px 0;
 }
 
-.d1{
-    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+/* divs with photos + buttons */
+.box{
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin: 0 5%;
+    margin: 5% 5%;
     border-radius: 10%;
+    border: 10px double rgba(255,255,255,0.8) ;
 }
 
-.d2{
-    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0 5%;
-    border-radius: 10%;
-}
-
-.d3{
-    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0 5%;
-    border-radius: 10%;
-}
-
-.d4{
-    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0 5%;
-    border-radius: 10%;
-}
-
-
-.d5{
-    background: url(../img/Component.png), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0 5%;
-    border-radius: 10%;
+.last{
+    padding-bottom: 30px;
 }
 
 .sub-title{
@@ -81,20 +60,14 @@ img{
     margin-top: 15px;
 }
 
+/* responsive */
 .container{
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
 }
 
-.pgs{
-    padding: 20px 0;
-}
-
-.x{
-    margin: 0 50px;
-}
-
+/* hovering for bigger images */
 img {
     transition:0.25s ease;
 }
@@ -105,11 +78,19 @@ img:hover {
     z-index: 1;
 }
 
+/* for disabled buttons */
+.wrapper{
+    cursor: not-allowed;
+    display: inline;
+}
+
+.pgs{
+    padding: 20px 0;
+}
+
+/* border edit */
 @media (max-width:768px) {
-    .sub-title{
-        padding-top: 60px;
-    }
-    .cards-sess{
-        padding-bottom: 20px;
+    .box{
+        border-radius: 0%;
     }
 }
