@@ -1,4 +1,4 @@
-#SCCI Gallery Pages
+# SCCI Gallery Pages
 
 The goal of this project is to show SCCI's most important momemnts throughout the year from sessions to closing.
 You can move along the years inside the webpage and see how SCCIians spend their time.
